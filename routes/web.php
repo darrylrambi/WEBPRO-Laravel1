@@ -18,5 +18,3 @@ Route::view('userData','userData')->name('userData');
 // buat route untuk akses function simpan di controller
 // Route::post sesuai dengan method di page userInput
 Route::post('userInput', [userController::class, 'simpan']);
-
-
