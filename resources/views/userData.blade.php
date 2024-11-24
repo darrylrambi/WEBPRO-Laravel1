@@ -18,8 +18,21 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>{{ session('Nama') }}</td>
-                    <td>{{ session('NIM') }}</td>
+                    <td>
+                    @if (!session('Nama'))
+                        Nama mahasiswa tidak ada
+                    @else
+                        {{ session('Nama') }}
+                    @endif
+                    </td>
+
+                    <td>
+                    @if (!session('Nama'))
+                        Nama mahasiswa tidak ada
+                    @else
+                        {{ session('NIM') }}
+                    @endif
+                    </td>
                 </tr>
             </tbody>
         </table>
