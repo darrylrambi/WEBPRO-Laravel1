@@ -10,10 +10,10 @@ Route::get('/', function () {
 });
 
 // buat route untuk masuk ke page userInput
-Route::view('userInput','userInput');
+Route::view('userInput','userInput')->name('userInput');
 
 // buat route untuk masuk ke page userData
-Route::view('userData','userData');
+Route::view('userData','userData')->name('userData');
 
 // buat route untuk akses function simpan di controller
 // Route::post sesuai dengan method di page userInput
