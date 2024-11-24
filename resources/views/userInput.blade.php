@@ -1,7 +1,7 @@
 <div>
     <!-- Nothing worth having comes easy. - Theodore Roosevelt -->
     <h1>Input data Mahasiswa</h1>
-    <form action="" method="post">
+    <form action="userInput" method="post">
         @csrf
         <input type="text" id="Nama" name="Nama" placeholder="Masukan Nama Mahasiswa">
         <br>
