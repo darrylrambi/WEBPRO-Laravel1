@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Import controller
-use App\Http\Controllers;
+// Import controller userController
+use App\Http\Controllers\userController;
 
 Route::get('/', function () {
     return view('welcome');
